@@ -1,3 +1,4 @@
+
 	-------------------------------------------------------------------------------------
 	1. Which of the following are valid Java identifiers? (Choose all that apply)
 	-------------------------------------------------------------------------------------
@@ -36,38 +37,38 @@
 
 
 
-
 	---------------------------------------------------------------------------------------------------
 	ans 1. A, B
 	---------------------------------------------------------------------------------------------------
 	
-		A. A$B			[  correct]
-		...............................................................................................
+        A. A$B          [  correct]
+        ...............................................................................................
 
 		
-		B. _helloWorld  [  correct]
-		...............................................................................................
+        B. _helloWorld  [  correct]
+        ...............................................................................................
 		
 
-		C. true         [incorrect]
-		...............................................................................................
-		   true is a keyword in java 
-		   ref [ all keywords in java ] 
-		       : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+        C. true         [incorrect]
+        ...............................................................................................
+          true is a keyword in java 
+          ref [ all keywords in java ] 
+            : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
 
 		   
-		D. java.lang    [incorrect]
-		...............................................................................................
-		   [.] char is not a valid identifier
+        D. java.lang    [incorrect]
+        ...............................................................................................
+          [.] char is not a valid identifier
 
 
-		E. Public       [  correct]
-		...............................................................................................
-		   only public is a keyword in java, Public does not.
-		   ref [ all keywords in java ] 
-		       : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+        E. Public       [  correct]
+        ...............................................................................................
+          only public is a keyword in java, Public does not.
+          ref [ all keywords in java ] 
+            : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
 
 		
-		F. 1980_s       [incorrect]
-		...............................................................................................
-		   the first identify char cannot be number
+        F. 1980_s       [incorrect]
+        ...............................................................................................
+          the first identify char cannot be number
+          

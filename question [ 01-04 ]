@@ -1,0 +1,93 @@
+
+	-------------------------------------------------------------------------------------
+	4. Given the following class, which of the following is true? (Choose all that apply)
+	-------------------------------------------------------------------------------------
+
+		1: public class Snake {
+		2:
+		3:   public void shed(boolean time) {
+		4:
+		5:     if (time) {
+		6:    
+		7:     }
+		8:     System.out.println(result);
+		9:
+		10:   }
+		
+		11: }
+
+		A. If String result = "done"; is inserted on line 2, the code will compile.
+		B. If String result = "done"; is inserted on line 4, the code will compile.
+		C. If String result = "done"; is inserted on line 6, the code will compile.
+		D. If String result = "done"; is inserted on line 9, the code will compile.
+		E. None of the above changes will make the code compile.
+		
+	-------------------------------------------------------------------------------------
+
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			var in java
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			
+				1 : please remember, var just can be use after define it
+			
+				2 : class field can be use during line 1 ~ 11
+				
+				3 : var define in method shed can be use during line 3 ~ 10
+					
+				4 : var define in if block can be use during line 5 ~ 7
+					
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+							
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	---------------------------------------------------------------------------------------------------
+	ans 1. A, B
+	---------------------------------------------------------------------------------------------------
+	
+		A. If String result = "done"; is inserted on line 2, the code will compile. [  correct]
+        ...............................................................................................
+          code inserted on line 2, this var result will be a class field here
+          
+		
+		B. If String result = "done"; is inserted on line 4, the code will compile. [  correct]
+        ...............................................................................................
+          code inserted on line 4, this var result will be a method var for shed
+
+		
+		C. If String result = "done"; is inserted on line 6, the code will compile. [incorrect]
+        ...............................................................................................
+          code inserted on line 6, this var just can be use during line 4 ~ 6, in line 7 does not see it
+
+		
+		D. If String result = "done"; is inserted on line 9, the code will compile. [incorrect]
+        ...............................................................................................
+          you must define var 'result' before use it
+
+		
+		E. None of the above changes will make the code compile.                    [incorrect]
+        ...............................................................................................
+
+		

@@ -1,24 +1,26 @@
 # PROJECT :: java Project mgr
-1234567890123456789012345678901234567890123456789012345678901234567890
+
 
 ___________________________________________________________________________________________________________________________________________
     BEFORE USING ::
 ___________________________________________________________________________________________________________________________________________
 
         1 ) my environment : Fefora 32 + Python 3.8.2 + jdk_14 
-        2 ) you can download this file "mybin [ 2020_10_07_14 update ].tar" to get fully project mgr.
+        2 ) you can download this file "mybin [ 2020_10_07_14 update ].tar" to get fully project .
             this tar file md5sum is [ 87d041d19795adace126e727710bd81b ]
 
         about this tool :: $ file /usr/bin/md5sum 
-        /usr/bin/md5sum: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter 
-        /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=0a05ff65bc9249fea725c08f8489d4edd0bcbcb4, for GNU/Linux 3.2.0, stripped
+        /usr/bin/md5sum: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked,
+        interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=0a05ff65bc9249fea725c08f8489d4edd0bcbcb4,
+        for GNU/Linux 3.2.0, stripped
 
 
 ___________________________________________________________________________________________________________________________________________
     A) ::    how to use projects mgr ? 
 ___________________________________________________________________________________________________________________________________________
 
-        1 ) add mybin absloute path into ${PATH}. this is not requite. If you do this step, you can run your subproject any where.
+        1 ) add mybin absloute path into ${PATH}. this is not requite. If you do this step, you can 
+            run your subproject any where.
         2 ) using "--proj=AZ012E545R888"      to asign sub project
         3 ) using "--file=aquarium/Tank.java" to asign entry point to compile
         4 ) using "--run=aquarium.Tank"       to asign entry point to run
@@ -30,7 +32,8 @@ ________________________________________________________________________________
             
         if you want run ./mybin/AZ012E545R888 project
               
-        follow as $ sh run.sh "--file=aquarium/Tank.java" "--run=aquarium.Tank" "--proj=AZ012E545R888"
+        follow as $ sh run.sh "--file=aquarium/Tank.java" "--run=aquarium.Tank" \
+                              "--proj=AZ012E545R888"
 
 
     _______________________________________________________________________________________________________________________________________
@@ -47,7 +50,8 @@ ________________________________________________________________________________
 
         if you want run ./mybin/AZ012E545R890 project
 
-        follow as $ sh run.sh "--file=employee/WaterFiller.java" "--run=employee.WaterFiller" "--proj=AZ012E545R890"
+        follow as $ sh run.sh "--file=employee/WaterFiller.java" "--run=employee.WaterFiller" \
+                              "--proj=AZ012E545R890"
 
 
     _______________________________________________________________________________________________________________________________________
@@ -56,7 +60,8 @@ ________________________________________________________________________________
 
         if you want run ./mybin/AZ012E545R891 project
 
-        follow as $ sh run.sh "--cp=./my/directory/" "--file=./my/directory/named/A/Bird.java" "--run=named.A.Bird" "--proj=AZ012E545R891"
+        follow as $ sh run.sh "--cp=./my/directory/" "--file=./my/directory/named/A/Bird.java" \
+                              "--run=named.A.Bird" "--proj=AZ012E545R891"
 
 
     _______________________________________________________________________________________________________________________________________
@@ -128,12 +133,23 @@ ________________________________________________________________________________
   B) ::    how to use jrunscrip ? 
 ___________________________________________________________________________________________________________________________________________
 
-        1  ) add mybin absloute path into ${PATH}. this is not requite. If you do this step, you can run your subproject any where.
-        2  ) using '--import=java.nio.*;'  to add imort                                                     into Test.java
-        3  ) using '--content=code here;'  to add code                                                      into Test.java main method
-        4  ) using '--function=code here;' to add function                                                  into Test.java
-        5  ) using '--classes=code here;'  to add none public ( class | interface | abstract class | enum ) into Test.java
+        1  ) add mybin absloute path into ${PATH}. this is not requite. If you do this step, 
+             you can run your subproject any where.
+             
+        2  ) using '--import=java.nio.*;'  
+             to add imort  into Test.java
+             
+        3  ) using '--content=code here;'  
+             to add code   into Test.java main method
+             
+        4  ) using '--function=code here;' 
+             to add function into Test.java
+             
+        5  ) using '--classes=code here;'  
+             to add none public ( class | interface | abstract class | enum ) into Test.java
+             
         ps ) jrunscrip not support package in entrypoint Test.java
+        
         ps ) if you want import your lib here, please cp your lib in your own workspace. see ex B.11
 
 

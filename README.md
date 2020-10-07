@@ -8,6 +8,9 @@ ________________________________________________________________________________
         1 ) my environment : Fefora 32 + Python 3.8.2 + jdk_14 
         2 ) you can download this file "mybin [ 2020_10_07_14 update ].tar" to get fully project .
             this tar file md5sum is [ 87d041d19795adace126e727710bd81b ]
+	3 ) there has a bug about has the same f8203538799c7c0aa596e347965d7f4c.key. 
+	    if in your computer has the same file f8203538799c7c0aa596e347965d7f4c.key . the project will
+	    find more than one workspace, this project never work successfully.
 
         about this tool :: $ file /usr/bin/md5sum 
         /usr/bin/md5sum: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked,
